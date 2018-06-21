@@ -1,0 +1,303 @@
+<style > * {
+    box-sizing: border-box;
+}
+
+body {
+    margin-right: 1%;
+    margin-left: 1%;
+    background-image: url("imagenes/fondo1.jpeg");
+    background-position: right;
+    font-family:"Verdana";
+}
+
+iframe {
+    margin-top: 1%;
+    width: 100%;
+}
+p{
+    text-align:center;
+    margin:2%;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:hover, a:active {
+    color: #088A68;
+}
+
+a:visited {
+    color: black;
+}
+
+ul {
+    list-style: none; 
+    height: 100%;    
+}
+
+header h1 {
+    line-height: 60px;
+    text-align: left;
+    display: inline-block;
+    padding-top: 20%;
+}
+
+header h3 {
+    text-align: right;
+    display: inline-block;
+    padding-top: 20%;
+}
+
+footer {
+    clear: both;
+    background-image: linear-gradient(to right, #088A68, #B404AE);
+    text-align: center;
+}
+
+/****************************************************************/
+/*
+/*para todas las páginas
+/*
+/****************************************************************/
+
+.loggin {
+    float: right;
+    padding-top: 3%;
+    padding-right: 2%;
+
+    background-image: linear-gradient(to right,#93289B, #B404AE);
+}
+
+.logo{
+    float:left;
+    padding-top:1%;
+    padding-left:1%;
+    display: inline-block;
+    width: 40%;
+}
+
+.button {
+    background-color: #088A68;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/****************************************************************/
+
+/*index.html e index2.html
+
+/****************************************************************/
+
+.menu {
+    float: right;
+    width: 50%;
+}
+
+
+.main {
+    padding-top: 2%;
+}
+.menuitem {
+    padding: 2%;
+    margin-top: 1%;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.right {
+    float: left;
+    width: 40%;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+#motivacion {
+    font: italic normal 400 16px/22px Arial, Verdana, Sans-serif;
+}
+#header {
+    height: 180px;  
+    background-color: #088A68;
+    background-image: linear-gradient(to right, #088A68, #B404AE);
+
+}
+
+/****************************************************************/
+/*
+/*actividades.html
+/*
+/****************************************************************/
+
+.menuActividades {
+    float: left;
+    width: 35%;
+    height: 400px;    
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.ultimasNoticias {
+    float: right;
+    width: 60%;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+.menuitem2 {
+    padding: 2%;
+    margin-top: 1%;
+    border-bottom: 1px solid #f1f1f1;
+    text-align: left;
+}
+
+.imgActividades {
+    display: inline-block;
+    padding-right: 10%;
+} 
+/****************************************************************/
+/*
+/*tecnicos.html*/
+/*
+/****************************************************************/
+.tecnico{
+    width:33%;
+    display:inline-block;
+}
+
+.listaTecnicos{
+    text-align:center;
+}
+
+#ft_tec {
+    position: inherit;
+}
+
+/****************************************************************/
+/*
+/*para las tablas
+/*
+/****************************************************************/
+
+.thead{
+    font-weight:normal; 
+    border: 1px solid #088A68; 
+    border-right: 0px;
+    width:20%;
+}
+
+.tbody{
+    border: 1px solid #088A68;
+    border-top: 0px;
+    border-bottom: 0px;
+    width:20%;
+}
+.post_message{
+    word-wrap:break-word;
+    text-align: justify;
+}
+
+.username{
+    border: 1px solid #088A68; 
+    border-top: 0px;
+}
+
+/****************************************************************/
+/*
+/*formularioalta.html
+/*
+/****************************************************************/
+
+#link_form{
+    color: #088A68;
+}
+
+
+/****************************************************************/
+/*
+/*responsive desing 
+/*
+/****************************************************************/
+
+@media only screen and (max-width:800px) {
+     body{
+        padding: 1%;
+    }
+    .menu,.right {
+        width: 100%;
+        
+    }
+    img {
+        width: 70%;
+        height: auto;
+    }
+    .loggin {
+        float: left;
+        padding: 2%;
+    }
+    .logo{
+        width: 100%;
+        margin: 11%;  
+    }
+    .ultimasNoticias {
+        float: left;
+        width:100%;
+    }
+    .imgActividades {
+        width: 70%;
+        height: auto;
+    }
+    .menuActividades {
+        width: 100%;
+        height: 150px;
+    }
+
+    .tecnico {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .listaTecnicos {
+        text-align: left;
+        display: table;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    body{
+        padding: 1%;
+    }
+    .menu, .right{
+        width: 100%;
+
+    }
+    .loggin{
+        float:left;
+        padding: 2%;
+    }
+    .logo{
+        width: 100%;
+        margin: 11%;  
+    }
+    .ultimasNoticias {
+        float: left;
+        width: 100%;
+    }
+    .imgActividades{
+        width:70%;
+        height:auto;
+    }
+    .menuActividades {
+        width: 100%;
+        height: 150px;
+    }
+
+     .listaTecnicos {
+        padding-top:1%;
+        text-align: center;
+    }
+}
